@@ -32,7 +32,7 @@
     self.titleArray = @[Number,Image,Code,Name,Quantity,Amount,Purchase,Sales,Supplier,Date,Color,Size];
     self.dataSourceArray = [ExcelModel initData];
     excelView = [[CCExcelView alloc] initWithFrame:self.safeAreaView.bounds rowHeight:40 showFooter:NO];
-    excelView.selectionStyle = CCExcelViewCellSelectionStyleRow;
+    excelView.selectionStyle = CCExcelViewCellSelectionStyleCell;
     [self.safeAreaView addSubview:excelView];
     
     self.dataSource = [BaseExcelDataSource new];
