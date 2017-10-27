@@ -1,6 +1,8 @@
 # CCExcelViewDemo
 iOS ExcelView 自定义表格 Demo 
 
+[![License](https://img.shields.io/badge/license-MIT-blue.svg?style=flat)](http://opensource.org/licenses/MIT "Feel free to contribute.")
+
 ## 效果展示
 
 ### Cell单元格点击效果
