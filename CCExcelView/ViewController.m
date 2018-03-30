@@ -7,9 +7,8 @@
 //
 
 #import "ViewController.h"
-#import "BaseExcelDataSource.h"
+#import "CCExcel.h"
 #import "ExcelModel.h"
-#import "CCUtil.h"
 
 @interface ViewController () <BaseExcelDelegate>
 
@@ -168,9 +167,9 @@
 - (UIColor *)dataSource:(BaseExcelDataSource *)dataSource backgroundColorAtRow:(NSInteger)row
 {
     if (row % 6 == 0) {
-        return ColorLightGreen;
+        return [UIColor colorWithRed:64/255.0 green:177/255.0 blue:136/255.0 alpha:1.0];
     }
-    return ColorClear;
+    return [UIColor clearColor];
 }
 
 - (BOOL)shouldLoadMore:(BaseExcelDataSource *)dataSource {
