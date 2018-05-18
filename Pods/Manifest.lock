@@ -1,11 +1,11 @@
 PODS:
-  - CCExcelView (0.0.4)
+  - CCExcelView (0.0.6)
 
 DEPENDENCIES:
   - CCExcelView
 
 SPEC CHECKSUMS:
-  CCExcelView: 41d2c5a7222f4b2cd6e23eef596ea19f065691b2
+  CCExcelView: 602035dfff34724ccb772ad463f37fd60970f235
 
 PODFILE CHECKSUM: 7d84621883c60623edea49a1aa671cc0e6f192ed
 
